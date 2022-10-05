@@ -1,7 +1,7 @@
 # Color detection app
 ***
 This small python app is used to retrieve the color of a pixel in an image. Click anywhere to get the color. It uses the OpenCv library for the UI and the
-color detection. 
+color detection.<br/>
 <img src="assets/screenshot.png" width="50%">
 ***
 ## How to use
