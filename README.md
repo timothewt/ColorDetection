@@ -1,7 +1,8 @@
 # Color detection app
 ***
-This small python app is used to retrieve the name of a color in an image. It uses the OpenCv library for the UI and the
-color detection.
+This small python app is used to retrieve the color of a pixel in an image. Click anywhere to get the color. It uses the OpenCv library for the UI and the
+color detection. 
+<img src="assets/screenshot.png" width="50%">
 ***
 ## How to use
 Clone this repo and install the requirements with `pip install -r requirements.txt`.

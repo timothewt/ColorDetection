@@ -12,7 +12,7 @@ def get_image_from_arg():
 
 def get_colors_list():
     colors = []
-    with open('colors.csv') as f:
+    with open('assets/colors.csv') as f:
         for row in f:
             row = row[:-1].replace('"', '').split(',')
             colors.append([row[1], [int(row[3]), int(row[4]), int(row[5])]])   # [name, hex, [R,G,B]]
